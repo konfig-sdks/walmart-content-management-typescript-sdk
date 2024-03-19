@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
 
 [![Visit Walmart](./header.png)](https://developer.walmart.com&#x2F;)
 
@@ -35,8 +35,8 @@ The content management feed allows you to process content for items in bulk. You
 import { Walmart } from "walmart-content-management-typescript-sdk";
 
 const walmart = new Walmart({
-  // Defining the base path is optional and defaults to http://localhost
-  // basePath: "http://localhost",
+  // Defining the base path is optional and defaults to https://marketplace.walmartapis.com/v3/feeds
+  // basePath: "https://marketplace.walmartapis.com/v3/feeds",
   clientId: "API_KEY",
   privateKey: "API_KEY",
 });
